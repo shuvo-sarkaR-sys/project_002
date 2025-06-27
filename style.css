@@ -94,3 +94,23 @@ border: none;
     display: flex;
     justify-content: center;
 }
+/*  our favourite food  section css start from here */
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+/*  our favourite food  section css start from here */
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
