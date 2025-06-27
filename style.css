@@ -323,6 +323,12 @@ margin-top: 10px;
     width: 100% !important;
     
   }
+  .container div{
+  width: 100% !important;
+} 
+.under-container{
+  padding: 20px !important;
+}
 }
 /* Food-section start from here */
 .food-section{
@@ -400,4 +406,30 @@ margin-top: 10px;
 }
 .p1{
   font-family: sans-serif;
+}
+.p2{
+  color: rgba(86, 81, 81, 0.658);
+}
+/* our chefs section css start from here */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container div{
+  width: 50%;
+} 
+.container div h1 {
+  color: goldenrod;
+  font-weight: 600;
+  font-size: 42px;
+}
+.container div p{
+  font-size: 24px; 
+  color: gray;
+}
+.container div img{
+  width: 100%;
+}
+.under-container{
+  padding: 100px 20px 100px 150px;
 }
