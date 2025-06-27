@@ -12,7 +12,9 @@
     width: 200px;
     height: 200px;
     overflow-y: visible;
+    position: relative;
     margin-top: 20px;
+    z-index: 2;
 }
  
 .menu-btn {
@@ -51,9 +53,44 @@
 }
  
 /* hero section css start from here */
+.hero-section {
+    position: relative;
+    z-index: 1;
+    height: 80vh;
+}
 .hero-section video{
 width: 100%;
 height: 80vh;
 object-fit: cover;
 display: block;
+}
+.box-1{
+     
+     position: absolute;
+      width: 100%;
+     bottom: -50px;
+   
+}
+.box-1 .box-2{
+    width: 33%;
+  
+ margin: auto;  
+ background: #000;
+ overflow-y: visible;
+}
+.button-3{
+margin: auto;
+width: 200px;
+background: #ffc105d1;
+border: none;
+}
+.button-3:hover{
+    background: transparent;
+    border: dotted #ffc105d1 2px;
+    color: white;
+}
+.box-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
