@@ -3,17 +3,135 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+    font-family:'Times New Roman', Times, serif;
+}
 /* Navbar css start from here */
 .navbar{
     padding: 0px 120px;
-    height: 80px;
+    height: 100px;
     background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    width: 100%;
+    
+}
+.socail-media a:nth-child(1){
+  color: #033a8d;
+}
+.socail-media a:nth-child(2){
+  color: #ed3434;
+}
+.socail-media a:nth-child(4){
+  color: red;
+}
+.socail-media li:hover{
+color: gold;
+cursor: pointer;
+}
+.nav-sidebar {
+  position: absolute;
+  top: 80px;
+   right: 100px; 
+  width: 340px;
+  font-family: sans-serif;
+  background: white;
+  color: green;
+  transition: opacity 2.2s ease-in, transform 2.2s ease-in;
+
+  padding: 40px 20px;
+  z-index: 999;
+  display: none;
+}
+
+.nav-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-sidebar ul li {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-position: left center;
+  cursor: pointer;
+   
 }
  
+.nav-sidebar ul li:nth-child(1):hover {
+  color: white ;
+     background: linear-gradient(to left, rgb(101, 240, 15) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+  
+}
+.nav-sidebar ul li:nth-child(2):hover {
+  
+     background: linear-gradient(to left, rgb(221, 240, 15) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+}
+.nav-sidebar ul li:nth-child(3):hover {
+  
+     background: linear-gradient(to left, rgb(240, 184, 15) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+}
+.nav-sidebar ul li:nth-child(4):hover {
+  
+     background: linear-gradient(to left, rgb(240, 15, 161) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+}
+.nav-sidebar ul li:nth-child(5):hover {
+  
+     background: linear-gradient(to left, rgba(44, 44, 43, 0.926) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+}
+.nav-sidebar ul li:nth-child(6):hover {
+  color: white ;
+     background: linear-gradient(to left, orange 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+  
+}
+.nav-sidebar ul li:nth-child(7):hover {
+  color: white ;
+     background: linear-gradient(to left, gray 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+  
+}
+.nav-sidebar ul li:nth-child(8):hover {
+  color: white ;
+     background: linear-gradient(to left, rgb(116, 15, 240) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  transition: background-position 0.4s ease;
+  
+}
+.nav-sidebar a:hover{
+  color: white;
+}
+.nav-sidebar a {
+   color: green;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Show the sidebar when active */
+.nav-sidebar.show {
+  display: block;} 
 .logo{
     width: 200px;
     height: 200px;
@@ -56,6 +174,12 @@
 }
 .button-1{
     margin-top: -120px;
+    width: 176px;
+   padding-left: 100px;
+}
+.button-2{
+   margin-top: -120px;
+    width: 176px;
 }
  
 /* hero section css start from here */
@@ -63,8 +187,10 @@
     position: relative;
     z-index: 1;
     height: 80vh;
+    
 }
 .hero-section video{
+   
 width: 100%;
 height: 80vh;
 object-fit: cover;
@@ -105,7 +231,7 @@ margin-top: 10px;
 /*  our favourite food  section css start from here */
 .favourite-section{
     margin-top: 150px;
-    height: 80vh;
+    margin-bottom: 50px;
 }
 .swiper {
   width: 80%;
@@ -114,7 +240,7 @@ margin-top: 10px;
 }
  
 .swiper-slide {
-  
+  width: 280px;
   
   font-size: 20px;
   text-align: center;
@@ -123,25 +249,33 @@ margin-top: 10px;
   border-radius: 8px;
 }
  .swiper-slide img{
-    width: 200px;
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
    
  }
 
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   top: auto;
   transform: translateY(0);
-  width: 40px;
-  height: 40px;
-  background: #000;
-  color: #fff;
+  width: 30px;
+  height: 30px;
+  
+   color: gray;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.swiper-button-prev::after,
+.swiper-button-next::after {
+ display: none;
+}
+
+ 
 
 .swiper-button-prev {
   left: 50%;
@@ -157,5 +291,113 @@ margin-top: 10px;
   padding-bottom: 70px;
 }
 .text-1{
-    line-height: 20px !important;
+     color: rgb(1, 71, 1);
+     font-size: 45px;
+     font-weight: 500;
+}
+.text-2{
+    font-size: 25px;
+     color: rgb(1, 71, 1); 
+    margin-top: 25px;
+    font-weight: 500;
+}
+.text-2:hover{
+    color: gold;
+    
+}
+.describ-text{
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+}
+@media (max-width: 768px) {
+  .bg-1{
+    width: 100% !important;
+    height: 60vh !important;
+  }
+ .bg-2{
+    width:  100% !important;
+    height: 50vh !important;
+  }
+  .about-food div{
+    width: 100% !important;
+    
+  }
+}
+/* Food-section start from here */
+.food-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg-1{
+  background-image: url('./assets/side-pic-2_0002_Layer-1-1024x797-1-960x650.png');
+  background-size: cover;
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 50%;
+}
+.bg-1 h1 {
+  color: white;
+  font-size: 35px;
+  background:#2ed059;
+  width: 150px;
+}
+.bg-1 p{
+  color: rgba(255, 255, 255, 0.658);
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.bg-2{
+  width: 50%;
+  background: rgb(247, 158, 3);
+  padding: 220px 180px;
+  height: 75vh;
+  color: white;
+  text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.bg-2 h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+.bg-2 h4{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.bg-2 p {
+  font-family: sans-serif;
+}
+/* about our food section css start from here */
+.about-food{
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 100px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.about-food div{
+  width: 28%;
+}
+.text-col-1{
+  color:  rgb(247, 158, 3); 
+}
+.col-2{
+  color: rgb(241, 144, 176);
+}
+.col-3{
+  color: #3fd5f0;
+}
+.text-3{
+  font-size: 40px;
+  font-weight: 600;
+}
+.p1{
+  font-family: sans-serif;
 }

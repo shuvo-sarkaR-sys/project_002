@@ -22,4 +22,5 @@
       0:  { slidesPerView: 1 },
     }
   });
- 
+document.getElementById('menu-toggle').addEventListener('click', function () {
+  document.getElementById('nav-sidebar').classList.toggle('show'); });
