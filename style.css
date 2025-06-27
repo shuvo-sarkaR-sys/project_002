@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Navbar css start from here */
 .navbar{
     padding: 0px 120px;
@@ -83,6 +89,8 @@ margin: auto;
 width: 200px;
 background: #ffc105d1;
 border: none;
+padding: 8px 0px;
+margin-top: 10px;
 }
 .button-3:hover{
     background: transparent;
@@ -95,22 +103,59 @@ border: none;
     justify-content: center;
 }
 /*  our favourite food  section css start from here */
-.slider-wrapper {
-  width: 100%;
-  overflow: hidden;
+.favourite-section{
+    margin-top: 150px;
+    height: 80vh;
+}
+.swiper {
+  width: 80%;
+  padding: 20px 0;
+  position: relative;
+}
+ 
+.swiper-slide {
+  
+  
+  font-size: 20px;
+  text-align: center;
+  line-height: 150px;
+  
+  border-radius: 8px;
+}
+ .swiper-slide img{
+    width: 200px;
+   
+ }
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  bottom: 10px;
+  top: auto;
+  transform: translateY(0);
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.slider-track {
-  display: flex;
-  transition: transform 0.4s ease-in-out;
-}
-/*  our favourite food  section css start from here */
-.slider-wrapper {
-  width: 100%;
-  overflow: hidden;
+.swiper-button-prev {
+  left: 50%;
+  transform: translateX(-60px); /* move left */
 }
 
-.slider-track {
-  display: flex;
-  transition: transform 0.4s ease-in-out;
+.swiper-button-next {
+  left: 50%;
+  transform: translateX(20px); /* move right */
+}
+
+.swiper {
+  padding-bottom: 70px;
+}
+.text-1{
+    line-height: 20px !important;
 }
