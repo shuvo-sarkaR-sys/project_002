@@ -329,6 +329,12 @@ margin-top: 10px;
 .under-container{
   padding: 20px !important;
 }
+.review-section div{
+  width: 100% !important;
+}
+.review-section {
+  height: 100% !important;
+}
 }
 /* Food-section start from here */
 .food-section{
@@ -432,4 +438,32 @@ margin-top: 10px;
 }
 .under-container{
   padding: 100px 20px 100px 150px;
+}
+/* review section start from here */
+.review-section{
+  background-image: url('/assets/897A1213-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background-color: #1614144b;
+}
+.review-section div{
+  width: 35%;
+  background: #ffffffaa;
+  padding: 25px;
+}
+.review-section div p{
+  font-family: sans-serif;
+  color: rgba(32, 29, 29, 0.848);
+}
+.review-section div h4{
+  color: rgb(245, 119, 161);
+  font-weight: 600;
+  font-size: 30px;
 }
