@@ -311,13 +311,90 @@ margin-top: 10px;
     font-weight: 300;
 }
 @media (max-width: 768px) {
+  .navbar{
+    padding: 0px  !important;
+  }
+  .logo{
+    width: 90px !important;
+    height: 100px !important;
+    margin: 0px !important;
+  }
+  .button-1{
+    padding: 0px !important;
+    margin-top: 0px !important;
+    width:  40px !important;
+  }
+  .button-2 {
+    width: 40px !important;
+    margin-top: 0px !important;
+  }
+  .socail-media{
+    gap: 4px !important;
+  }
+  .button-2 .my-icon{
+     
+    height: 18px !important;
+    padding-left: 5px !important;
+    width: 18px !important;
+    
+  }
+  .nav-sidebar{
+    right: 0px !important;
+    top: 100px !important;
+    width: 250px !important;
+  }
+  /* mobile hero section start from here */
+  .hero-section{
+    width: 100% !important;
+    height: 70vh !important;
+  }
+  .hero-section video {
+    height: 70vh !important;
+  }
+  .box-1 div{
+    width: 100% !important;
+  }
+  .box-3 div{
+    display: flex;
+    justify-content: center;
+  }
+  .favourite-section{
+    margin: 80px 0px 30px 0px !important;
+  }
+  .swiper{
+    padding: 0px !important;
+  }
+  .swiper-slide{
+    width: 100% !important;
+    margin: 0px !important;
+    height: 46vh !important;
+    
+  }
+  .swiper-slide img{
+    width:  100% !important;
+    height: 30vh !important;
+  }
+  .swiper-button-prev {
+  left: 50% !important;
+  transform: translateX(-60px) !important; /* move left */
+}
+
+.swiper-button-next {
+  left: 50% !important;
+  transform: translateX(60px) !important; /* move right */
+}
   .bg-1{
     width: 100% !important;
-    height: 60vh !important;
+    height: 40vh !important;
   }
  .bg-2{
     width:  100% !important;
-    height: 50vh !important;
+    height: 100% !important;
+    padding: 30px !important;
+  }
+  .about-food{
+    margin: 30px !important;
+    gap: 30px !important;
   }
   .about-food div{
     width: 100% !important;
@@ -334,6 +411,7 @@ margin-top: 10px;
 }
 .review-section {
   height: 100% !important;
+  gap: 0px !important;
 }
 }
 /* Food-section start from here */
