@@ -363,26 +363,20 @@ margin-top: 10px;
   }
   .swiper{
     padding: 0px !important;
+    height: 45vh !important;
+    
   }
   .swiper-slide{
+     
     width: 100% !important;
-    margin: 0px !important;
-    height: 46vh !important;
+      
     
   }
   .swiper-slide img{
-    width:  100% !important;
+    width: 100% !important;
     height: 30vh !important;
   }
-  .swiper-button-prev {
-  left: 50% !important;
-  transform: translateX(-60px) !important; /* move left */
-}
-
-.swiper-button-next {
-  left: 50% !important;
-  transform: translateX(60px) !important; /* move right */
-}
+  
   .bg-1{
     width: 100% !important;
     height: 40vh !important;
