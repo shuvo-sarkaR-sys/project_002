@@ -38,7 +38,7 @@ cursor: pointer;
   width: 340px;
   font-family: sans-serif;
   background: white;
-  color: green;
+  color: black;
   transition: opacity 2.2s ease-in, transform 2.2s ease-in;
 
   padding: 40px 20px;
@@ -56,12 +56,13 @@ cursor: pointer;
   border-radius: 8px;
   background-position: left center;
   cursor: pointer;
+  text-align: right;
    
 }
  
 .nav-sidebar ul li:nth-child(1):hover {
   color: white ;
-     background: linear-gradient(to left, rgb(101, 240, 15) 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
@@ -69,35 +70,35 @@ cursor: pointer;
 }
 .nav-sidebar ul li:nth-child(2):hover {
   
-     background: linear-gradient(to left, rgb(221, 240, 15) 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
 }
 .nav-sidebar ul li:nth-child(3):hover {
   
-     background: linear-gradient(to left, rgb(240, 184, 15) 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
 }
 .nav-sidebar ul li:nth-child(4):hover {
   
-     background: linear-gradient(to left, rgb(240, 15, 161) 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
 }
 .nav-sidebar ul li:nth-child(5):hover {
   
-     background: linear-gradient(to left, rgba(44, 44, 43, 0.926) 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
 }
 .nav-sidebar ul li:nth-child(6):hover {
   color: white ;
-     background: linear-gradient(to left, orange 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
@@ -105,7 +106,7 @@ cursor: pointer;
 }
 .nav-sidebar ul li:nth-child(7):hover {
   color: white ;
-     background: linear-gradient(to left, gray 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
@@ -113,17 +114,17 @@ cursor: pointer;
 }
 .nav-sidebar ul li:nth-child(8):hover {
   color: white ;
-     background: linear-gradient(to left, rgb(116, 15, 240) 50%, transparent 50%);
+     background: linear-gradient(to left, #ba9d28 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right center;
   transition: background-position 0.4s ease;
   
 }
-.nav-sidebar a:hover{
+.nav-sidebar li:hover a{
   color: white;
 }
 .nav-sidebar a {
-   color: green;
+   color: black;
   text-decoration: none;
   font-size: 23px;
   
@@ -219,9 +220,9 @@ padding: 8px 0px;
 margin-top: 10px;
 }
 .button-3:hover{
-    background: transparent;
-    border: dotted #ffc105d1 2px;
-    color: white;
+    background: #fff;
+    
+    color: #ba9d28;
 }
 .box-3{
     width: 100%;
@@ -230,13 +231,15 @@ margin-top: 10px;
 }
 /*  our favourite food  section css start from here */
 .favourite-section{
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 50px;
 }
-.swiper {
+ 
+.swiper1 {
   width: 80%;
   padding: 20px 0;
   position: relative;
+  
 }
  
 .swiper-slide1 {
@@ -287,22 +290,23 @@ margin-top: 10px;
   transform: translateX(20px); /* move right */
 }
 
-.swiper {
+.swiper1 {
   padding-bottom: 70px;
 }
 .text-1{
-     color: rgb(1, 71, 1);
+     color: black;
+     margin-bottom: 65px;
      font-size: 45px;
      font-weight: 500;
 }
 .text-2{
     font-size: 25px;
-     color: rgb(1, 71, 1); 
+     color: black; 
     margin-top: 25px;
     font-weight: 500;
 }
 .text-2:hover{
-    color: gold;
+    color: #ba9d28;
     
 }
 .describ-text{
@@ -317,7 +321,7 @@ margin-top: 10px;
   .logo{
     width: 90px !important;
     height: 100px !important;
-    margin: 0px !important;
+    margin: 0px 0px 0px 10px !important;
   }
   .button-1{
     padding: 0px !important;
@@ -333,9 +337,9 @@ margin-top: 10px;
   }
   .button-2 .my-icon{
      
-    height: 22px !important;
-    padding-left: 10px !important;
-    width: 22px !important;
+    height: 36px !important;
+    padding-left: 5px !important;
+    width: 36px !important;
     
   }
   .nav-sidebar{
@@ -343,6 +347,7 @@ margin-top: 10px;
     top: 100px !important;
     width: 250px !important;
   }
+  
   /* mobile hero section start from here */
   .hero-section{
     width: 100% !important;
@@ -361,9 +366,10 @@ margin-top: 10px;
   .favourite-section{
     margin: 80px 0px 30px 0px !important;
   }
-  .swiper{
+  .swiper1{
     padding: 0px !important;
-    height: 45vh !important;
+    height: 51vh !important;
+    margin-top: 20px !important;
     
   }
   .swiper-slide1{
@@ -375,6 +381,9 @@ margin-top: 10px;
   .swiper-slide1 img{
     width: 100% !important;
     height: 30vh !important;
+  }
+  .text-1{
+    margin-bottom: 40px  !important;
   }
   /* foodsection start from here */
   .bg-1{
@@ -509,7 +518,7 @@ margin-top: 10px;
   margin-top: 20px;
 }
 .box-4 h1{
-  color: rgb(214, 162, 29);
+  color: black;
     font-family: "Satisfy", cursive;
 font-size: 45px;
 }
@@ -540,13 +549,13 @@ font-size: 45px;
   width: 28%;
 }
 .text-col-1{
-  color:  rgb(247, 158, 3); 
+  color:   black; 
 }
 .col-2{
-  color: rgb(241, 144, 176);
+  color: black;
 }
 .col-3{
-  color: #3fd5f0;
+  color: black;
 }
 .text-3{
   font-size: 40px;
@@ -554,6 +563,7 @@ font-size: 45px;
 }
 .p1{
   font-family: sans-serif;
+  color: #ba9d28;
 }
 .p2{
   color: rgba(86, 81, 81, 0.658);
@@ -570,7 +580,7 @@ font-size: 45px;
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
-  color: #f1b1d4;
+  color: #ba9d28;
   font-size: 30px;
 }
 .container{
