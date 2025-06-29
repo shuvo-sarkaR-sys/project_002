@@ -376,7 +376,7 @@ margin-top: 10px;
     width: 100% !important;
     height: 30vh !important;
   }
-  
+  /* foodsection start from here */
   .bg-1{
     width: 100% !important;
     height: 40vh !important;
@@ -385,6 +385,9 @@ margin-top: 10px;
     width:  100% !important;
     height: 100% !important;
     padding: 30px !important;
+  }
+  .bg-2 div{
+    width: 100% !important;
   }
   .about-food{
     margin: 30px !important;
@@ -418,49 +421,59 @@ margin-top: 10px;
   flex-wrap: wrap;
 }
 .bg-1{
-  background-image: url('./assets/side-pic-2_0002_Layer-1-1024x797-1-960x650.png');
-  background-size: cover;
-  text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
+   
+ 
+     
+     
+    height: 88vh;
     width: 50%;
+    overflow: hidden;
 }
-.bg-1 h1 {
-  color: white;
-  font-size: 35px;
-  background:#2ed059;
-  width: 150px;
+.bg-1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  scale: 1.1;
 }
-.bg-1 p{
-  color: rgba(255, 255, 255, 0.658);
-  font-family: sans-serif;
-  font-weight: 300;
-}
+ 
+ 
 .bg-2{
   width: 50%;
-  background: rgb(247, 158, 3);
-  padding: 220px 180px;
-  height: 75vh;
-  color: white;
+  background: #f7f7f7;
+  padding: 50px 100px;
+  height: 88vh;
+  gap: 20px;
   text-align: left;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
+   
+   flex-wrap: wrap;
+   
 }
-.bg-2 h1{
-  font-size: 48px;
+.bg-2 div{
+  width: 48%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bg-2 div img{
+  width: 60px;
+}
+.bg-2 div h2{
+  font-family: sans-serif;
+  margin-top: 20px;
   font-weight: 600;
-}
-.bg-2 h4{
   font-size: 20px;
-  font-family: sans-serif;
-  font-weight: 600;
 }
-.bg-2 p {
-  font-family: sans-serif;
+ 
+ 
+ 
+.bg-2 div p {
+   font-family: sans-serif;
+   color: rgba(128, 128, 128, 0.64);
+   font-weight:100;
 }
 /* about our food section css start from here */
 .about-food{
