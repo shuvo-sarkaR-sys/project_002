@@ -386,6 +386,16 @@ margin-top: 10px;
     height: 100% !important;
     padding: 30px !important;
   }
+  .bg-3{
+    width: 100% !important;
+    height: 35vh !important;
+  }
+
+  .bg-4{
+    width: 100% !important;
+    padding: 50px !important;
+    height: 100% !important;
+  }
   .bg-2 div{
     width: 100% !important;
   }
@@ -419,6 +429,10 @@ margin-top: 10px;
 .food-section{
   display: flex;
   flex-wrap: wrap;
+}
+.food-section1{
+  display: flex;
+  flex-wrap: wrap-reverse;
 }
 .bg-1{
    
@@ -474,6 +488,46 @@ margin-top: 10px;
    font-family: sans-serif;
    color: rgba(128, 128, 128, 0.64);
    font-weight:100;
+}
+.bg-3 {
+  width: 50%;
+  height: 90vh;
+}
+.bg-3 img{
+  width: 100%;
+  height: 100%;
+}
+.bg-4{
+  width: 50%;
+  height: 90vh;
+  background: #f7f7f7;
+  text-align: center;
+  padding: 130px 145px;
+}
+.bg-4 p{
+  color: rgba(128, 128, 128, 0.742);
+  font-size: 18px;
+  margin-top: 20px;
+}
+.box-4 h1{
+  color: rgb(214, 162, 29);
+    font-family: "Satisfy", cursive;
+font-size: 45px;
+}
+.box-4 img{
+  margin-top: -30px;
+}
+.box-5{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 60px;
+}
+.box-5 h2{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #1c1b1bc6;
 }
 /* about our food section css start from here */
 .about-food{
