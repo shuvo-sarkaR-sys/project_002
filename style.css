@@ -239,7 +239,7 @@ margin-top: 10px;
   position: relative;
 }
  
-.swiper-slide {
+.swiper-slide1 {
   width: 280px;
   
   font-size: 20px;
@@ -248,7 +248,7 @@ margin-top: 10px;
   
   border-radius: 8px;
 }
- .swiper-slide img{
+ .swiper-slide1 img{
     width: 280px;
     height: 180px;
     object-fit: cover;
@@ -366,13 +366,13 @@ margin-top: 10px;
     height: 45vh !important;
     
   }
-  .swiper-slide{
+  .swiper-slide1{
      
     width: 100% !important;
       
     
   }
-  .swiper-slide img{
+  .swiper-slide1 img{
     width: 100% !important;
     height: 30vh !important;
   }
@@ -493,6 +493,20 @@ margin-top: 10px;
   color: rgba(86, 81, 81, 0.658);
 }
 /* our chefs section css start from here */
+.our-chef{
+  padding: 50px 0px;
+}
+.our-chef h1{
+  font-family: sans-serif;
+ font-weight: 700;
+}
+.our-chef p{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #f1b1d4;
+  font-size: 30px;
+}
 .container{
   display: flex;
   flex-wrap: wrap;
@@ -542,4 +556,83 @@ margin-top: 10px;
   color: rgb(245, 119, 161);
   font-weight: 600;
   font-size: 30px;
+}
+ .swiper2 {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+  }
+
+  .swiper-slide2 {
+      position: relative;
+   
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  .swiper-slide2 img{ 
+   
+    width: 100%;
+    height: 100%;
+  }
+.swiper-slide2 .container-1{
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+position: absolute;
+text-align: center;
+background: #00000042;
+top: 0px;
+width: 100%;
+height: 100%;
+opacity: 0;
+ 
+}
+.contain-1{
+  opacity: 0;
+  transform: translateY(20px);
+transition: opacity 0.4s ease, transform 0.4s ease;
+ 
+ }
+ .contain-1 h2{
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+ }
+ .contain-1 p{
+  color: pink;
+  font-size: 16px;
+  
+ }
+  
+ .swiper-slide2:hover .container-1,
+.swiper-slide2:hover .contain-1 {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* All bullets */
+.swiper-pagination-bullet {
+  background-color: #d344e3;
+  opacity: 0.4;
+}
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+  background-color: #d344e3;
+  opacity: 1;
+}
+
+.un-contain{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 18px;
+}
+.un-contain .svg1{
+  height: 25px;
+  width: 25px;
+  fill: white;
+}
+.svg1:hover{
+  fill: goldenrod;
 }
