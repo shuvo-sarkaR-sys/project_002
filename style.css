@@ -413,17 +413,16 @@ margin-top: 10px;
 .under-container{
   padding: 20px !important;
 }
-.review-section{
-  padding: 30px !important;
-
-}
-.review-section div{
-  width: 100% !important;
-}
-.review-section {
+/* testimonials mobile version start from here */
+ .testm-section{
   height: 100% !important;
-  gap: 30px !important;
-}
+  padding: 50px !important;
+ }
+  
+ .swiper3{
+   width: 100% !important;
+   height: 100% !important;
+ }
 }
 /* Food-section start from here */
 .food-section{
@@ -596,34 +595,11 @@ font-size: 45px;
 .under-container{
   padding: 100px 20px 100px 150px;
 }
-/* review section start from here */
-.review-section{
-  background-image: url('/assets/897A1213-scaled.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-  width: 100%;
-  background-color: #1614144b;
-}
-.review-section div{
-  width: 35%;
-  background: #ffffffaa;
-  padding: 25px;
-}
-.review-section div p{
-  font-family: sans-serif;
-  color: rgba(32, 29, 29, 0.848);
-}
-.review-section div h4{
-  color: rgb(245, 119, 161);
-  font-weight: 600;
-  font-size: 30px;
-}
+/* chef section start from here */
+ 
+ 
+ 
+ 
  .swiper2 {
     width: 80%;
     height: 600px;
@@ -702,4 +678,67 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .svg1:hover{
   fill: goldenrod;
+}
+/* testimonial start from here */
+.testm-section{
+  background-image: url(/assets/testimonials-bg.jpg);
+  height: 95vh;
+  background-size: cover;
+  padding-top: 100px;
+}
+.testm-section h1{
+  color: white;
+  font-family: Calibri;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+.testm-section p{
+  font-family: "Satisfy", cursive;
+  color: goldenrod;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.box-6 span{
+       display: flex;
+        flex-direction: column;
+}
+.testm-section div h5{
+ font-size: 16px;
+ color: goldenrod;
+ font-family: Calibri;
+}
+.testm-section div h3{
+  font-size: 17px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #000000c2;
+}
+.swiper3 {
+  width: 80%;
+ 
+  height: 380px;
+   
+   
+}
+.slide3{
+  padding: 45px 30px;
+  background: white;
+ 
+}
+.slide3 p{
+  color:  #666666;
+  font-family: "Raleway", Regular;
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.slide3 div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
 }
