@@ -742,3 +742,110 @@ transition: opacity 0.4s ease, transform 0.4s ease;
   gap: 10px;
   margin-top: -10px;
 }
+/* blog section start from here */
+.blog-section .div1{
+  display: flex;
+flex-wrap: wrap;
+width: 80%;
+ gap: 30px;
+margin: auto;
+}
+@media (max-width: 768px) {
+  .blog-section div .container-2{
+  width: 100% !important;
+}
+}
+.blog-section{
+  padding: 100px 0px;
+}
+.blog-section h1{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+
+}
+.blog-section p{
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  color: goldenrod;
+  font-size: 24px;
+  margin-bottom: 90px;
+}
+.blog-section div .container-2{
+  width: 31%;
+  
+  overflow: hidden;
+  border: 1px solid rgba(90, 82, 82, 0.164);
+}
+.container-2 .inner-image{
+      width: 100%;
+      overflow: hidden;
+}
+ .container-2 div img{
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.container-2 img:hover{
+  transform: scale(1.2);
+}
+.inner-box{
+ padding: 35px 25px;
+  background-image: url('/assets/post-body-bg-1.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.inner-box1{
+ padding: 35px 25px;
+  background-image: url('/assets/post-body-bg-2.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.inner-box2{
+ padding: 35px 25px;
+  background-image: url('/assets/post-body-bg-3.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.inner-box p{
+  color: #666666;
+font-family: "Raleway", sans-serif;
+  margin: 15px 0px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+   
+}
+.inner-box1 p{
+  color: #666666;
+font-family: "Raleway", sans-serif;
+  margin: 15px 0px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+   
+}
+.inner-box2 p{
+  color: #666666;
+font-family: "Raleway", sans-serif;
+  margin: 15px 0px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+   
+}
+.inner-box, .inner-box1, .inner-box2 a{
+  color: black;
+  font-weight: 300;
+}
+ .inner-box2 a:hover{
+  color: goldenrod;
+}
+.container-2 div h3{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
