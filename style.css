@@ -437,7 +437,9 @@ font-weight: 400;
   height: 100% !important;
   padding: 50px 30px !important;
  }
-  
+  .testm-section h1{
+    font-size: 35px !important;
+  }
  .swiper3{
    width: 100% !important;
    height: 100% !important;
@@ -900,3 +902,66 @@ font-family: "Raleway", sans-serif;
   font-family: sans-serif;
   font-weight: 500;
 }
+/* footer section start from here */
+@media (max-width: 768px) {
+  .footer-section div{
+    flex-wrap: wrap !important;
+    justify-content: left!important;
+    gap: 20px !important;
+    
+  }
+}
+.footer-section{
+  background-image: url('/assets/Path-1375.png');
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+   
+
+
+}
+.footer-section img{
+width: 170px;
+height: 170px;
+margin: auto;
+margin-top: 50px;
+ 
+}
+.footer-section div{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 50px;
+   
+}
+.footer-section a{
+  text-decoration: none;
+  color: white;
+}
+.footer-section ul li{
+  list-style: none;
+}
+.footer-section ul{
+  line-height: 30px;
+}
+.social-media3 a:nth-child(1){
+  color: #1265e1;
+}
+.social-media3 a:nth-child(2){
+  color: #ed3434;
+}
+.social-media3 a:nth-child(4){
+  color: red;
+}
+.social-media3 li:hover{
+color:#ba9d28;
+cursor: pointer;
+}
+.social-media3{
+  margin-top: -20px;
+}
+ .text-l:hover{
+  color: #ba9d28;
+ }
