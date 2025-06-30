@@ -552,7 +552,7 @@ font-size: 45px;
 }
 .box-5 h2{
   font-size: 20px;
-  font-family: sans-serif;
+ font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #1c1b1bc6;
 }
@@ -599,6 +599,7 @@ font-size: 45px;
 }
 .our-chef h1{
   font-family: "Raleway", sans-serif;
+  font-size: 35px;
  font-weight: 700;
 }
 .our-chef p{
@@ -816,7 +817,7 @@ margin: auto;
   text-align: center;
 font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 35px;
 
 }
 .blog-section p{
