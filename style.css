@@ -538,7 +538,7 @@ font-weight: 400;
 }
 .box-4 h1{
   color: black;
-    font-family: "Satisfy", cursive;
+     font-family: "Raleway", sans-serif;
 font-size: 45px;
 }
 .box-4 img{
@@ -581,9 +581,10 @@ font-size: 45px;
   font-weight: 600;
 }
 .p1{
- font-family: "Satisfy", cursive;
+  font-family: "Raleway", sans-serif;
   color:#ba9d28;
   margin-bottom: 30px;
+  font-size: 30px;
 }
 .p2{
   color: #666666;
@@ -597,15 +598,15 @@ font-size: 45px;
   padding: 100px 0px;
 }
 .our-chef h1{
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
  font-weight: 700;
 }
 .our-chef p{
-  font-family: "Satisfy", cursive;
+ font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ba9d28;
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 80px;
 }
 .container{
@@ -674,7 +675,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
  }
  .contain-1 h2{
   font-size: 21px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
  }
  .contain-1 p{
@@ -731,10 +732,10 @@ font-family: "Raleway", sans-serif;
   
 }
 .testm-section p{
-  font-family: "Satisfy", cursive;
+   font-family: "Raleway", sans-serif;
     color:#ba9d28;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 40px;
 }
 .box-6 span{
@@ -820,9 +821,9 @@ font-family: "Raleway", sans-serif;
 }
 .blog-section p{
   text-align: center;
-  font-family: "Satisfy", cursive;
+font-family: "Raleway", sans-serif;
   color:#ba9d28;
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 90px;
 }
 .blog-section div .container-2{
