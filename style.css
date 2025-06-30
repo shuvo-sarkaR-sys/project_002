@@ -163,7 +163,7 @@ cursor: pointer;
 /* Transform to X using just 3 spans */
 #menu-toggle:checked + .menu-btn span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
-   
+   width: 30px;
 }
 #menu-toggle:checked + .menu-btn span:nth-child(2) {
   opacity: 0;
@@ -560,7 +560,7 @@ font-size: 45px;
 .about-food{
   display: flex;
   justify-content: space-between;
-  margin: 100px 100px 0px;
+  margin: 120px 100px 20px;
   gap: 80px;
   flex-wrap: wrap;
 }
@@ -605,7 +605,7 @@ font-size: 45px;
   font-weight: 400;
   font-style: normal;
   color: #ba9d28;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 80px;
 }
 .container{
