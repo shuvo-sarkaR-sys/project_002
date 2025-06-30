@@ -232,7 +232,7 @@ margin-top: 10px;
 /*  our favourite food  section css start from here */
 .favourite-section{
     margin-top: 120px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
  
 .swiper1 {
@@ -321,7 +321,7 @@ margin-top: 10px;
   .logo{
     width: 90px !important;
     height: 100px !important;
-    margin: 0px 0px 0px 10px !important;
+    margin: 0px 0px 0px 16px !important;
   }
   .button-1{
     padding: 0px !important;
@@ -337,9 +337,9 @@ margin-top: 10px;
   }
   .button-2 .my-icon{
      
-    height: 36px !important;
+    height: 30px !important;
     padding-left: 5px !important;
-    width: 36px !important;
+    width: 30px !important;
     
   }
   .nav-sidebar{
@@ -385,6 +385,16 @@ margin-top: 10px;
   .text-1{
     margin-bottom: 40px  !important;
   }
+
+/* chef section start from here */
+
+.our-chef{
+  padding: 50px 0px !important;
+}
+.our-chef p{
+  margin-bottom: 50px !important;
+}
+
   /* foodsection start from here */
   .bg-1{
     width: 100% !important;
@@ -402,7 +412,7 @@ margin-top: 10px;
 
   .bg-4{
     width: 100% !important;
-    padding: 50px !important;
+    padding: 50px 30px !important;
     height: 100% !important;
   }
   .bg-2 div{
@@ -425,12 +435,16 @@ margin-top: 10px;
 /* testimonials mobile version start from here */
  .testm-section{
   height: 100% !important;
-  padding: 50px !important;
+  padding: 50px 30px !important;
  }
   
  .swiper3{
    width: 100% !important;
    height: 100% !important;
+ }
+ .slide3{
+  width: 100%;
+  height: 100%;
  }
 }
 /* Food-section start from here */
@@ -541,7 +555,7 @@ font-size: 45px;
 .about-food{
   display: flex;
   justify-content: space-between;
-  margin: 80px 100px;
+  margin: 100px 100px 0px;
   gap: 80px;
   flex-wrap: wrap;
 }
@@ -562,15 +576,17 @@ font-size: 45px;
   font-weight: 600;
 }
 .p1{
-  font-family: sans-serif;
-  color: #ba9d28;
+ font-family: "Satisfy", cursive;
+  color: #d5b431;
+  margin-bottom: 30px;
 }
 .p2{
   color: rgba(86, 81, 81, 0.658);
+  font-family: sans-serif;
 }
 /* our chefs section css start from here */
 .our-chef{
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 .our-chef h1{
   font-family: sans-serif;
@@ -582,6 +598,7 @@ font-size: 45px;
   font-style: normal;
   color: #ba9d28;
   font-size: 30px;
+  margin-bottom: 80px;
 }
 .container{
   display: flex;
@@ -612,7 +629,7 @@ font-size: 45px;
  
  .swiper2 {
     width: 80%;
-    height: 600px;
+    height: inherit;
     margin: 20px auto;
   }
 
@@ -653,7 +670,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
   color: white;
  }
  .contain-1 p{
-  color: pink;
+  color:#ba9d28;
   font-size: 16px;
   
  }
@@ -665,21 +682,22 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 }
 /* All bullets */
 .swiper-pagination-bullet {
-  background-color: #d344e3;
+  background-color:#ba9d28;
+  
   opacity: 0.4;
 }
 
 /* Active bullet */
 .swiper-pagination-bullet-active {
-  background-color: #d344e3;
+  background-color:#ba9d28;
   opacity: 1;
 }
 
 .un-contain{
   display: flex;
-  justify-content: center;
+  
   gap: 15px;
-  margin-top: 18px;
+  margin-top: -30px;
 }
 .un-contain .svg1{
   height: 25px;
@@ -736,6 +754,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 .slide3{
   padding: 45px 30px;
   background: white;
+  height: 300px;
  
 }
 .slide3 p{
@@ -763,7 +782,14 @@ margin: auto;
 @media (max-width: 768px) {
   .blog-section div .container-2{
   width: 100% !important;
+ 
 }
+ .blog-section{
+    padding: 50px 0px !important;
+  }
+  .blog-section p{
+    margin-bottom: 50px !important;
+  }
 }
 .blog-section{
   padding: 100px 0px;
@@ -820,7 +846,7 @@ margin: auto;
 .inner-box p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px;
+  margin: 15px 0px -10px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
@@ -830,7 +856,7 @@ font-family: "Raleway", sans-serif;
 .inner-box1 p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px;
+  margin: 15px 0px -10px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
@@ -840,14 +866,22 @@ font-family: "Raleway", sans-serif;
 .inner-box2 p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px;
+  margin: 15px 0px -10px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
   text-align: left;
    
 }
-.inner-box, .inner-box1, .inner-box2 a{
+.inner-box a{
+  color: black;
+  font-weight: 300;
+}
+.inner-box1 a{
+  color: black;
+  font-weight: 300;
+}
+ .inner-box2 a{
   color: black;
   font-weight: 300;
 }
