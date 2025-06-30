@@ -798,6 +798,15 @@ margin: auto;
   .blog-section p{
     margin-bottom: 50px !important;
   }
+  .inner-box p{
+    margin-bottom: 20px !important;
+  }
+  .inner-box1 p{
+    margin-bottom: 20px !important;
+  }
+  .inner-box2 p{
+    margin-bottom: 20px !important;
+  }
 }
 .blog-section{
   padding: 100px 0px;
@@ -838,6 +847,7 @@ font-family: "Raleway", sans-serif;
   background-image: url('/assets/post-body-bg-1.png');
   background-repeat: no-repeat;
   background-position: right bottom;
+
 }
 .inner-box1{
  padding: 35px 25px;
@@ -854,7 +864,7 @@ font-family: "Raleway", sans-serif;
 .inner-box p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px -10px 0px;
+  margin: 15px 0px 40px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
@@ -864,7 +874,7 @@ font-family: "Raleway", sans-serif;
 .inner-box1 p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px -10px 0px;
+  margin: 15px 0px 40px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
@@ -874,7 +884,7 @@ font-family: "Raleway", sans-serif;
 .inner-box2 p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px 0px 0px;
+  margin: 15px 0px 40px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
@@ -892,7 +902,7 @@ font-family: "Raleway", sans-serif;
  .inner-box2 a{
   color: black;
   font-weight: 300;
-  margin-top: 10px;
+  
 }
  .inner-box2 a:hover{
   color:#ba9d28;
