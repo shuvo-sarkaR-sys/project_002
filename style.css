@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family:'Times New Roman', Times, serif;
-}
+ 
 /* Navbar css start from here */
 .navbar{
     padding: 0px 120px;
@@ -28,7 +26,7 @@ body{
   color: red;
 }
 .socail-media li:hover{
-color: gold;
+color:#ba9d28;
 cursor: pointer;
 }
 .nav-sidebar {
@@ -214,7 +212,7 @@ display: block;
 .button-3{
 margin: auto;
 width: 200px;
-background: #ffc105d1;
+background-color: #ba9d28;
 border: none;
 padding: 8px 0px;
 margin-top: 10px;
@@ -310,9 +308,11 @@ margin-top: 10px;
     
 }
 .describ-text{
-    font-size: 18px;
-    color: gray;
-    font-weight: 300;
+    font-size: 16px;
+    color: #666666;
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+     line-height: 26px;
 }
 @media (max-width: 768px) {
   .navbar{
@@ -507,9 +507,10 @@ margin-top: 10px;
  
  
 .bg-2 div p {
-   font-family: sans-serif;
-   color: rgba(128, 128, 128, 0.64);
-   font-weight:100;
+   font-family: "Raleway", sans-serif;
+   color: #666666;
+   line-height: 26px;
+   
 }
 .bg-3 {
   width: 50%;
@@ -527,7 +528,9 @@ margin-top: 10px;
   padding: 130px 145px;
 }
 .bg-4 p{
-  color: rgba(128, 128, 128, 0.742);
+  color:  #666666;
+  font-family: "Raleway", sans-serif;
+  line-height: 26px;
   font-size: 18px;
   margin-top: 20px;
 }
@@ -577,12 +580,15 @@ font-size: 45px;
 }
 .p1{
  font-family: "Satisfy", cursive;
-  color: #d5b431;
+  color:#ba9d28;
   margin-bottom: 30px;
 }
 .p2{
-  color: rgba(86, 81, 81, 0.658);
-  font-family: sans-serif;
+  color: #666666;
+  font-family: "Raleway", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 500;
 }
 /* our chefs section css start from here */
 .our-chef{
@@ -608,7 +614,7 @@ font-size: 45px;
   width: 50%;
 } 
 .container div h1 {
-  color: goldenrod;
+  color:#ba9d28;
   font-weight: 600;
   font-size: 42px;
 }
@@ -716,7 +722,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .testm-section h1{
   color: white;
-  font-family: Calibri;
+font-family: "Raleway", sans-serif;
   font-size: 45px;
   font-weight: 700;
   text-align: center;
@@ -724,7 +730,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .testm-section p{
   font-family: "Satisfy", cursive;
-  color: goldenrod;
+  color: #ba9d28;
   text-align: center;
   font-size: 24px;
   margin-bottom: 40px;
@@ -735,7 +741,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .testm-section div h5{
  font-size: 16px;
- color: goldenrod;
+ color:#ba9d28;
  font-family: Calibri;
 }
 .testm-section div h3{
@@ -759,7 +765,7 @@ transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .slide3 p{
   color:  #666666;
-  font-family: "Raleway", Regular;
+  font-family: "Raleway", sans-serif;
   text-align: left;
   font-size: 16px;
   line-height: 26px;
@@ -796,7 +802,7 @@ margin: auto;
 }
 .blog-section h1{
   text-align: center;
-  font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 28px;
 
@@ -804,13 +810,13 @@ margin: auto;
 .blog-section p{
   text-align: center;
   font-family: "Satisfy", cursive;
-  color: goldenrod;
+  color:#ba9d28;
   font-size: 24px;
   margin-bottom: 90px;
 }
 .blog-section div .container-2{
   width: 31%;
-  
+  height: 100%;
   overflow: hidden;
   border: 1px solid rgba(90, 82, 82, 0.164);
 }
@@ -866,7 +872,7 @@ font-family: "Raleway", sans-serif;
 .inner-box2 p{
   color: #666666;
 font-family: "Raleway", sans-serif;
-  margin: 15px 0px -10px 0px;
+  margin: 15px 0px 0px 0px;
   line-height: 30px;
   font-weight: 400;
   font-size: 15px;
@@ -884,9 +890,10 @@ font-family: "Raleway", sans-serif;
  .inner-box2 a{
   color: black;
   font-weight: 300;
+  margin-top: 10px;
 }
  .inner-box2 a:hover{
-  color: goldenrod;
+  color:#ba9d28;
 }
 .container-2 div h3{
   font-size: 18px;
