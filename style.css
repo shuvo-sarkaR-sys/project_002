@@ -563,6 +563,7 @@ font-size: 45px;
   margin: 120px 100px 20px;
   gap: 80px;
   flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
 }
 .about-food div{
   width: 28%;
@@ -577,7 +578,7 @@ font-size: 45px;
   color: black;
 }
 .text-3{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 .p1{
