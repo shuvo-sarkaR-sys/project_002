@@ -1047,7 +1047,7 @@ width: 50px;
    
  }
  .food-menu{
-  width: 70%;
+  width: 68%;
  }
  .busket-section{
   width: 28%;
@@ -1145,4 +1145,84 @@ object-fit: cover;
     height:fit-content;
     background: transparent;
 
+   }
+   .time-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+   }
+   .select-1{
+    width: 48%;
+    position: relative;
+   }
+.custom-icon{
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  rotate: 180deg;
+    
+ 
+}
+ .select-2{
+  width: 48%;
+  position: relative;
+ }
+   .select-1 select{
+    width: 100%;
+    padding: 4px 10px;
+    border: #3f3e3e40 1px solid;
+     appearance: none;        
+  -webkit-appearance: none;
+  -moz-appearance: none;
+   }
+   .select-2 select{
+    width: 100%;
+    padding: 4px 10px;
+    border: #3f3e3e40 1px solid;
+     appearance: none;        
+  -webkit-appearance: none;
+  -moz-appearance: none;
+   }
+    
+   .time-section select option{
+     border: #3f3e3e40 1px solid;
+   }
+    .time-section select option:hover{
+      background:#ba9d28;
+      color: #000;
+    }
+   .delivery{
+    display: flex;
+    width: 100%;
+   }
+   .delivery div{
+     width: 50%;
+     text-align: center;
+     padding: 5px;
+     cursor: pointer;
+   }
+   .delivery div:nth-child(1){
+    background: #000;
+    color:#ba9d28;
+   }
+   .delivery div:nth-child(2){
+    border: 2px solid #ba9d28;
+    border-left: none;
+    color: #ba9d28;
+    background: #fff;
+   }
+   .text-5{
+    font-size: 20px;
+    color: #000;
+   }
+   .btn-1{
+    padding: 8px;
+    background: #000;;
+    color:#ba9d28;
+    border: none;
+   }
+   .btn-1:hover{
+    background: #ba9d28;
+    color: black;
+    
    }

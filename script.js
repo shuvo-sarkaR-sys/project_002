@@ -29,6 +29,7 @@ document.getElementById('menu-toggle').addEventListener('click', function () {
       link.classList.add('active');
     });
   });
+ 
   const swiper = new Swiper('.mySwiper', {
     slidesPerView: 4,
       
