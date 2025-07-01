@@ -1059,10 +1059,50 @@ width: 50px;
         margin-bottom: 50px;
  }
  @media (max-width: 768px) {
-   
+  .main-section{
+    width: 95% !important;
+  }
+  .food-menu{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+   .busket-section{
+    display: none;
+   }
+    .box-7{
+  width: 100% !important; 
+  display: flex !important;
+flex-direction: row-reverse;
+}
+.box-7 button {
+   display: none !important;
+}
+.p3{
+  display: block !important;
+}
+.box-7 img{
+width: 30% !important;
+}
+.box-7 div{
+  width: 70% !important;
+}
+.starter-section div{
+  flex-wrap: wrap;
+}
+.mobile-bottom{
+  position: fixed;
+  display: flex !important;
+  bottom: 0;
+  background:#ba9d29;
+  width: 100%;
+}
+ }
+ .p3{
+  display: none;
  }
  .starter-section{
   padding: 90px 0px 0px;
+   
  }
  .main-section img{
 width: 100%;
@@ -1105,6 +1145,27 @@ object-fit: cover;
 
   }
   /* busket section start from here */
+  .mobile-bottom{
+    display: none;
+     
+    justify-content: space-between;
+    padding: 0px 50px;
+   align-items: center;
+  }
+    .mobile-bottom:hover{
+      background-color: #f7f7f7;
+      color: #ba9d28;
+      cursor: pointer;
+    }
+  .mobile-bottom div{
+    display: flex;
+   align-items: center;
+    text-align: center;
+    gap: 10px;
+    
+  }
+
+  
   .busket-section{
     position: sticky;
     top: 60px;
