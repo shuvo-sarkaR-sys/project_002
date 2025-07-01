@@ -539,7 +539,7 @@ font-weight: 400;
 .box-4 h1{
   color: black;
      font-family: "Raleway", sans-serif;
-font-size: 45px;
+font-size: 35px;
 }
 .box-4 img{
   margin-top: -30px;
@@ -981,4 +981,78 @@ cursor: pointer;
  .unner-box img{
 width: 50px;
  
+ }
+ /* Menu page start from here */
+ .menu-nav{
+  position: sticky;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  top: 0px;
+  background: #000;
+  text-align: center;
+  
+  color: #ba9d29;
+ }
+ .menu-nav ul {
+  display:flex;
+  
+  justify-content: center;
+  overflow-x: scroll;
+     scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; 
+
+ }
+ .menu-nav ul::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+ .menu-nav ul a{
+  text-decoration: none;
+  
+  color: #ba9d28;
+ }
+ .menu-nav ul li{
+  list-style: none;
+  padding: 3px 14px;
+   
+ }
+ .menu-nav ul  a:hover{
+  background:#ba9d28;
+  color: #000;
+ }
+ .menu-nav ul  a.active {
+  background:#ba9d28;
+  color: #000;
+   
+}
+ .logo1{
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+ }
+/* 
+ food menu section start from here */
+ .main-section{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  background: #78727273;
+ }
+ .food-menu{
+  width: 70%;
+ }
+ .busket-section{
+  width: 28%;
+ }
+ .starter-section h1{
+        text-align: center;
+        font-size: 35px;
+ }
+ .starter-section{
+  margin: 100px 0px;
+ }
+ .main-section img{
+width: 240px;
+height: 150px;
+object-fit: cover;
  }
