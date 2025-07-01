@@ -1,5 +1,5 @@
  
- document.getElementById('menu-toggle').addEventListener('click', function () {
+document.getElementById('menu-toggle').addEventListener('click', function () {
   document.getElementById('nav-sidebar').classList.toggle('show'); });
     const sections = document.querySelectorAll('.section');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -111,5 +111,4 @@
 });
 
 
-document.getElementById('menu-toggle').addEventListener('click', function () {
-  document.getElementById('nav-sidebar').classList.toggle('show'); });
+ 

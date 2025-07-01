@@ -991,7 +991,7 @@ width: 50px;
   top: 0px;
   background: #000;
   text-align: center;
-  
+  z-index: 2;
   color: #ba9d29;
  }
  .menu-nav ul {
@@ -1001,8 +1001,10 @@ width: 50px;
   overflow-x: scroll;
      scrollbar-width: none;  /* Firefox */
   -ms-overflow-style: none; 
+  
 
  }
+  
  .menu-nav ul::-webkit-scrollbar {
   display: none;  /* Chrome, Safari and Opera */
 }
@@ -1014,7 +1016,7 @@ width: 50px;
  .menu-nav ul li{
   list-style: none;
   padding: 3px 14px;
-  
+  white-space: nowrap
    
  }
  .menu-nav ul  a:hover{
@@ -1039,6 +1041,7 @@ width: 50px;
  food menu section start from here */
  .main-section{
   display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
    
@@ -1055,8 +1058,11 @@ width: 50px;
 
         margin-bottom: 50px;
  }
+ @media (max-width: 768px) {
+   
+ }
  .starter-section{
-  margin: 90px 0px 0px;
+  padding: 90px 0px 0px;
  }
  .main-section img{
 width: 100%;
@@ -1098,3 +1104,45 @@ object-fit: cover;
   color: #000;
 
   }
+  /* busket section start from here */
+  .busket-section{
+    position: sticky;
+    top: 60px;
+    height: 100%;
+     background: white;
+     margin-top: 100px;
+     z-index: 1;
+  }
+  .busket-section h5{
+    text-align: left;
+    padding: 5px 10px;
+    background:#000;
+    color: #ba9d28;
+  }
+  .busket-section a{
+    color: #000;
+    text-decoration: none;
+    height: 20px;
+    padding-bottom: 3px;
+  }
+  .busket-section a:hover{
+    border-bottom: 1px solid #000;
+  }
+  .cart-text {
+    display: grid;
+    width: 100%;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 30px;
+  }
+   .cart-text div{
+    display: flex;
+    gap: 6px;
+     
+   }
+   .cart-text div button{
+    border: none;
+    cursor: pointer;
+    height:fit-content;
+    background: transparent;
+
+   }
