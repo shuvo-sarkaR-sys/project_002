@@ -927,6 +927,10 @@ font-family: "Raleway", sans-serif;
     width: 98%;
     justify-content: start !important;
   }
+  .footer-section img{
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
 .footer-section{
   background-image: url('/assets/Path-1375.png');
@@ -1352,6 +1356,7 @@ margin-bottom: 0;
       width: 50%;
       margin: auto;
     margin-top: 90px;
+    margin-bottom: 90px;
     background: #fff;
     padding: 20px;
     }
