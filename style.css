@@ -314,6 +314,97 @@ font-family: "Raleway", sans-serif;
 font-weight: 400;
      line-height: 26px;
 }
+/* tablet responsive css start from here */
+@media (min-width: 768px) and (max-width: 1024px) {
+.swiper1{
+  width: 90%;
+}
+.swiper-slide1{
+  width: 250px;
+}
+.swiper-slide1 img{
+  width: 100%;
+}
+.food-section{
+  flex-direction: column;
+}
+.bg-1{
+  width: 100% !important;
+  height: 50vh !important;
+}
+.bg-1 img{
+  width: 100%;
+}
+.bg-2{
+  width: 100% !important;
+  height: 50vh !important;
+
+}
+.food-section1{
+  flex-direction: column;
+}
+.bg-4{
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+.bg-3{
+  width: 100% !important;
+  height: 50vh !important;
+
+}
+.food-menu{
+  width: 60% !important;
+}
+.busket-section{
+  width: 37% !important;
+}
+.about-food{
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+  gap: 40px !important;
+  margin: 100px 0px !important;
+}
+.about-food div{
+  width: 28% !important;
+}
+.testm-section{
+  height: 50vh !important;
+}
+.swiper3{
+  height: 27vh !important;
+  width: 90% !important;
+}
+.slide3{
+  height: 100% !important;
+}
+.blog-section .div1{
+  flex-wrap: nowrap !important;
+  width: 90% !important;
+}
+.menu-nav ul{
+  justify-content: start !important;
+}
+ .main-section{
+   width: 90% !important;
+ }
+ .contain-2{
+  flex-wrap: wrap;
+  gap: 5px ;
+ }
+ .box-7{
+  width: 45% !important;
+ }
+  .form-section{
+        width: 100% !important;
+      }
+      .checkout-section{
+        width: 70% !important;
+        margin: 50px 0px !important;
+      }
+}
+
 @media (max-width: 768px) {
   .navbar{
     padding: 0px  !important;
@@ -1447,7 +1538,7 @@ margin-bottom: 0;
     width: 240px;
     height: 50px;
     text-align: center;
-    padding-top: 10px;
+     
     cursor: pointer;
   }
   /* collection button */
@@ -1457,7 +1548,7 @@ margin-bottom: 0;
     width: 240px;
     height: 50px;
     text-align: center;
-    padding-top: 10px;
+     
     color:#ba9d28;
     font-weight: 600;
     cursor: pointer;
@@ -1481,6 +1572,10 @@ margin-bottom: 0;
   .button-4:hover{
         background: #000;
         color: #ba9d28;
+  }
+  .payment-m{
+    font-weight: 600;
+    margin: 0;
   }
   .payment-section{
     display: flex;
