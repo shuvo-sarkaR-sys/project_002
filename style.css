@@ -1073,6 +1073,7 @@ width: 50px;
     width: 100%;
     flex-wrap: wrap;
   }
+  
    .busket-section{
     display: none;
    }
@@ -1087,13 +1088,14 @@ flex-direction: row-reverse;
 .p3{
   display: block !important;
   font-weight: 700;
+  margin: 0 !important;
 }
 .box-7 img{
-width: 30% !important;
-height: 100% !important;
+width: 40% !important;
+ height: 100%!important;
 }
 .box-7 div{
-  width: 70% !important;
+  width: 60% !important;
 }
 .starter-section div{
   flex-wrap: wrap;
@@ -1340,7 +1342,24 @@ margin-bottom: 0;
       .container-4{
         margin: 0px !important;
       }
+      /* order page css is here */
+       .busket-section1{
+    width: 85% !important;
+   
+  }
     }
+    .busket-section1{
+      width: 50%;
+      margin: auto;
+    margin-top: 90px;
+    background: #fff;
+    padding: 20px;
+    }
+    .busket-section1 a{
+      color: #000;
+      text-decoration: none;
+    }
+    
     .checkout-section{
      
       margin: 75px 50px;
@@ -1489,4 +1508,11 @@ margin-bottom: 0;
   .img-4 img{
     width: 20px !important;
     height: 20px;
+  }
+  .mobile-navbar-b{
+    text-decoration: none;
+    color: #000;
+  }
+  .order-page1{
+     background: #0000001f;
   }
