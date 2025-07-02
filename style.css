@@ -923,6 +923,10 @@ font-family: "Raleway", sans-serif;
     gap: 20px !important;
     
   }
+  .menu-nav ul {
+    width: 98%;
+    justify-content: start !important;
+  }
 }
 .footer-section{
   background-image: url('/assets/Path-1375.png');
@@ -996,7 +1000,8 @@ width: 50px;
  }
  .menu-nav ul {
   display:flex;
-  
+    padding: 0;
+  margin: 0;
   justify-content: center;
   overflow-x: scroll;
      scrollbar-width: none;  /* Firefox */
@@ -1004,6 +1009,7 @@ width: 50px;
   
 
  }
+  
   
  .menu-nav ul::-webkit-scrollbar {
   display: none;  /* Chrome, Safari and Opera */
@@ -1014,6 +1020,7 @@ width: 50px;
   color: #ba9d28;
  }
  .menu-nav ul li{
+   flex: 0 0 auto;
   list-style: none;
   padding: 3px 14px;
   white-space: nowrap
@@ -1079,9 +1086,11 @@ flex-direction: row-reverse;
 }
 .p3{
   display: block !important;
+  font-weight: 700;
 }
 .box-7 img{
 width: 30% !important;
+height: 100% !important;
 }
 .box-7 div{
   width: 70% !important;

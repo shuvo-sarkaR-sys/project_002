@@ -1,34 +1,50 @@
  
 document.getElementById('menu-toggle').addEventListener('click', function () {
   document.getElementById('nav-sidebar').classList.toggle('show'); });
-    const sections = document.querySelectorAll('.section');
-  const navLinks = document.querySelectorAll('.nav-link');
+  const sections = document.querySelectorAll('.section');
+const navLinks = document.querySelectorAll('.nav-link');
 
-  // Scroll: Highlight active nav link
-  window.addEventListener('scroll', () => {
-    let current = '';
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 150;
-      if (scrollY >= sectionTop) {
-        current = section.getAttribute('id');
-      }
-    });
+// Scroll: Highlight active nav link
+window.addEventListener('scroll', () => {
+  let current = '';
 
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === `#${current}`) {
-        link.classList.add('active');
-      }
-    });
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150; // adjust based on your navbar height
+    const sectionHeight = section.offsetHeight;
+    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+      current = section.getAttribute('id');
+    }
   });
 
-  // Click: Smooth scroll and highlight
   navLinks.forEach(link => {
-    link.addEventListener('click', () => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `#${current}`) {
+      link.classList.add('active');
+      // Optional: keep the active item visible in horizontal scroll
+      link.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }
+  });
+});
+
+// Click: Smooth scroll and highlight
+navLinks.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault(); // prevent jump
+    const targetId = link.getAttribute('href').substring(1);
+    const targetSection = document.getElementById(targetId);
+
+    if (targetSection) {
+      window.scrollTo({
+        top: targetSection.offsetTop - 100, // adjust if you have sticky nav
+        behavior: 'smooth'
+      });
+
       navLinks.forEach(l => l.classList.remove('active'));
       link.classList.add('active');
-    });
+    }
   });
+});
+
  
   const swiper = new Swiper('.mySwiper', {
     slidesPerView: 4,
