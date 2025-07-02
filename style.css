@@ -334,6 +334,7 @@ font-weight: 400;
   }
   .socail-media{
     gap: 4px !important;
+    margin-left: 4px;
   }
   .button-2 .my-icon{
      
@@ -1213,6 +1214,7 @@ object-fit: cover;
    .cart-text div{
     display: flex;
     gap: 6px;
+    justify-content: end;
      
    }
    .cart-text div button{
@@ -1270,9 +1272,10 @@ object-fit: cover;
    .delivery{
     display: flex;
     width: 100%;
+    justify-content: center;
    }
    .delivery div{
-     width: 50%;
+     width: 250px;
      text-align: center;
      padding: 5px;
      cursor: pointer;
@@ -1295,6 +1298,9 @@ object-fit: cover;
     padding: 8px;
     background: #000;;
     color:#ba9d28;
+    width: 250px;
+     
+    
     border: none;
    }
    .btn-1:hover{
@@ -1314,6 +1320,7 @@ margin-bottom: 0;
    }
       .form-section{
         display: flex;
+        justify-content: center;
         width: 80%;
         margin: auto;
       }
@@ -1336,8 +1343,11 @@ margin-bottom: 0;
       color: white;
     }
     @media (max-width: 768px) {
+      .logo1{
+        margin-left: 40px;
+      }
       .form-section{
-        width: 90% !important;
+        width: 100% !important;
       }
       .checkout-section{
         width: 100% !important;
@@ -1475,6 +1485,7 @@ margin-bottom: 0;
   .payment-section{
     display: flex;
     gap: 20px;
+    justify-content: center;
  
   }
   .img-3 img{
@@ -1483,7 +1494,7 @@ margin-bottom: 0;
   }
   .img-3{
     display: flex;;
-    width: 47%;
+    width: 240px;
     height: 35px;
     align-items: center;
      background: #0000001f;
@@ -1497,13 +1508,13 @@ margin-bottom: 0;
   }
   .img-4{
     display: flex;
-    width: 47%;
+   width: 240px;
     height: 35px;
     align-items: center;
     justify-content: space-between;
     background:#ba9d28;
     color: #fff !important;
-    padding: 3px 5px;
+    padding: 3px 14px;
   }
   .img-4 p{
      font-size: 20px !important;
