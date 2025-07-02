@@ -1299,6 +1299,12 @@ object-fit: cover;
    /* form section start from here */
    .form-body{
     background: #84817b2d;
+      font-family: "Raleway", sans-serif !important;
+
+   }
+   .details-1{
+font-weight: 600;
+margin-bottom: 0;
    }
       .form-section{
         display: flex;
