@@ -354,7 +354,8 @@ font-weight: 400;
 
 }
 .food-menu{
-  width: 60% !important;
+  width: 63% !important;
+ 
 }
 .busket-section{
   width: 37% !important;
@@ -391,10 +392,10 @@ font-weight: 400;
  }
  .contain-2{
   flex-wrap: wrap;
-  gap: 5px ;
+  gap: 15px !important;
  }
  .box-7{
-  width: 45% !important;
+  width: 47% !important;
  }
   .form-section{
         width: 100% !important;
@@ -1395,7 +1396,7 @@ object-fit: cover;
     color:#ba9d28;
     width: 250px;
      
-    margin: auto;
+   
     border: none;
    }
    .btn-1:hover{
