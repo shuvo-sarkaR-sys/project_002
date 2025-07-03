@@ -1375,6 +1375,7 @@ object-fit: cover;
     display: flex;
     width: 100%;
     justify-content: center;
+    gap: 8px;
    }
    .delivery button{
      width: 250px;
@@ -1386,11 +1387,24 @@ object-fit: cover;
     background: #000;
     color:#ba9d28;
    }
+    .delivery button:nth-child(1):hover{
+       background: #000;
+    color:#ba9d28;
+    }
+     .delivery button:nth-child(1):focus{
+       border: 2px solid #ba9d28;
+       background: #000;
+    color:#ba9d28;
+    }
    .delivery button:nth-child(2){
     border: 2px solid #ba9d28;
-    border-left: none;
+     
     color: #ba9d28;
     background: #fff;
+   }
+   .delivery button:nth-child(2):focus{
+       background: #000;
+      color: #ba9d28;
    }
      .delivery button:nth-child(2):hover{
       background: #000;
@@ -1410,6 +1424,11 @@ object-fit: cover;
     border: none;
    }
    .btn-1:hover{
+    background: #ba9d28;
+    color: black;
+    
+   }
+    .btn-1:focus{
     background: #ba9d28;
     color: black;
     
