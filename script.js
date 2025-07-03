@@ -82,7 +82,7 @@ navLinks.forEach(link => {
     spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 2000,
+      delay: 3500,
       disableOnInteraction: false,
     },
     navigation: {
