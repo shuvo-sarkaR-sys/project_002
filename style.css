@@ -991,9 +991,19 @@ font-family: "Raleway", sans-serif;
   color: black;
   font-weight: 300;
 }
+.inner-box a:hover{
+  
+ 
+  color:#ba9d28;
+}
 .inner-box1 a{
   color: black;
   font-weight: 300;
+}
+.inner-box1 a:hover{
+  
+ 
+  color:#ba9d28;
 }
  .inner-box2 a{
   color: black;
